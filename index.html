@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+
+    <!-- -----------header section ----------------- -->
+
+    <div class="header">
+        <div>
+            <h1>What is Blockchain?</h1>
+            <p>Blockchain is more than just a buzzword; it's a revolutionary concept that is reshaping the way we think
+                about data, transactions, and trust. At its core, blockchain is a decentralized ledger that records
+                transactions across a network of computers in a secure and transparent manner. Each transaction is
+                encrypted and linked to the previous one, forming a chain of blocks that are immutable and tamper-proof.
+            </p>
+        </div>
+        <div>
+            <img src="./abcd1c6.png" alt="">
+        </div>
+    </div>
+
+    <hr>
+
+    <!-- -------------- section 2 ------------------- -->
+    <div class="bodySection">
+        <h1>Why Blockchain Matters</h1>
+        <p>Blockchain technology offers a myriad of benefits, including enhanced security, increased transparency, and
+            reduced costs. By eliminating the need for intermediaries and centralized authorities, blockchain empowers
+            individuals to take control of their digital assets and conduct peer-to-peer transactions with confidence.
+        </p>
+
+        <div class="blockchain">
+            <div class="block">
+                <h2>Genesis Block</h2>
+            </div>
+            <span class="line"></span>
+            <div class="block">
+                <img src="./!.png" alt="">
+                <div class="hidden">
+                    <h2>Block 1</h2>
+                </div>
+            </div>
+            <span class="line"></span>
+            <div class="block">
+                <h2>Block 2</h2>
+            </div>
+            <span class="line"></span>
+            <div class="block">
+                <h2>Block 3</h2>
+            </div>
+            <span class="dotted"></span>
+        </div>
+        <p>This a typicall demonstration of a block chain each block is connected to the previous one by their address.
+            Blockchain technology relies on cryptographic hash functions to link blocks together. Each block contains a
+            hash of the previous block's data, along with its own data. If you were to change the data in a previous
+            block, it would alter its hash value. Since each subsequent block's hash is based on the previous block's
+            hash, even a small change in one block would lead to a cascading effect, changing the hash values of all
+            subsequent blocks. This breaks the integrity of the blockchain.</p>
+    </div>
+    <hr>
+
+    <div class="contact">
+        <h1>Get Involved</h1>
+        <p>Ready to dive into the world of blockchain? Join our community of like-minded individuals, participate in
+            events and workshops, and stay informed about the latest news and developments in the blockchain space.
+            Together,
+            we can unlock the full potential of this transformative technology and pave the way for a decentralized
+            future.
+        </p>
+
+    </div>
+
+
+
+    <!-- -------------popup section ------------------- -->
+
+    <div class="popup">
+        <div class="close">
+            <p>x</p>
+        </div>
+        <div class="content">
+            <h1>GENESIS BLOCK</h1>
+            <p>The genesis block is the first block in a blockchain. It serves as the foundation upon which the entire
+                blockchain network is built.The genesis block is manually created or hardcoded into the blockchain's
+                protocol by its creator. It is the only block in the chain that does not point to a previous block since
+                there are no prior blocks in the chain. </p>
+            <p>Previous block address: 0000000000000000000000000000000000</p>
+            <p>Current block address: 35bSzXvRKLpHsHMrzb82f617cV4Srnt7hS</p>
+        </div>
+    </div>
+    <div class="popup">
+        <div class="close">
+            <p>x</p>
+        </div>
+        <div class="content">
+            <h1>BLOCK 1</h1>
+            <p id="damagedBlock">Opps !!! Something went Wrong ! The block is missing </p>
+            <p>Previous block address: <span id="damagedId">!!!!!!</span></p>
+            <p>Current block address: 256bSzXghsjfddfrzb82f617cV4Srnt7hS</p>
+        </div>
+    </div>
+    <div class="popup">
+        <div class="close">
+            <p>x</p>
+        </div>
+        <div class="content">
+            <h1>BLOCK 2</h1>
+            <p>This is a general block in the blockchain network containing data and transaction records.</p>
+            <p>Previous block address:256bSzXghsjfddfrzb82f617cV4Srnt7hS </p>
+            <p>Current block address: 67lasjdnfjosdfSFSijsdlsknvSdsdfFSD</p>
+        </div>
+    </div>
+    <div class="popup">
+        <div class="close"><p>x</p></div>
+        <div class="content">
+            <h1>BLOCK 3</h1>
+            <p>This is a general block in the blockchain network containing data and transaction records.There are
+                several hundred thousands of blocks up ahead from this making up the whole blockchain network.</p>
+            <p>Previous block address: 67lasjdnfjosdfSFSijsdlsknvSdsdfFSD </p>
+            <p>Current block address: 45lskdfnslkSDFkDFGerlerEGFjermlDRgr</p>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

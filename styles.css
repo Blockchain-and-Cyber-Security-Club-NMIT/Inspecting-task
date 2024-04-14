@@ -1,0 +1,150 @@
+body{
+    background-color: rgb(24 24 27);
+    color: white;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+
+h1,h2{
+    text-align: center;
+    margin: 0;
+    font-family: "Prompt", sans-serif;
+  font-weight: 700;
+}
+p,span{
+    font-family: "Montserrat", sans-serif;
+}
+hr{
+    width: 80%;
+    margin: auto    ;
+    border: 1px solid rgb(60, 60, 60);
+    margin-bottom: 2vw;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    padding: 2vw;
+}
+.header>div:nth-child(1){
+    width: 50%;
+}
+.header>div:nth-child(1) h1{
+    font-size: 4vw;
+}
+.header>div:nth-child(1) p{
+    font-size: 1.5vw;
+    text-align: justify;
+    line-height: 2.2vw;
+}
+.header>div:nth-child(2){
+    width: 50%;
+}
+.header>div:nth-child(2) img{
+    width: 100%;
+}
+
+.bodySection{
+    width: 90%;
+    margin: auto;
+    padding-bottom: 2vw;
+}
+.bodySection>h1{
+    font-size: 3vw;
+}
+.bodySection>p{
+    font-size: 1.5vw;
+    text-align: justify;
+    margin: 4vw 0;
+}
+
+.blockchain{
+    display: flex;
+    align-items: center;
+    color: black;
+    justify-content: center;
+    gap: 1vw;
+}
+
+.block{
+    width: 11vw;
+    height: 11vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    cursor: pointer;
+}
+.block img{
+    width: 100%;
+}
+.blockchain .block:nth-child(3){
+    position: relative;
+}
+.blockchain .block:nth-child(3) div{
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+.line{
+    width: 8vw;
+    height: 0vw;
+    border: 3px solid white;
+}
+.dotted{
+    width: 8vw;
+    height: 0vw;
+    border:3px dotted white ;
+}
+.hidden{
+    display: none;
+    position: relative;
+}
+.hidden h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.contact{
+    width: 80%;
+    margin: auto;
+}
+.contact p{
+    font-size: 1.5vw;
+}
+
+.popup {
+    width: 500px;
+    height: 500px;
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: black;
+  }
+
+ .popup .content{
+    text-align: justify;
+    display: flex;
+    gap: 2vw;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+ }
+  .close {
+    font-size: 2vw;
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+  }
