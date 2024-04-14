@@ -8,9 +8,10 @@ let previousId = '!!!!!!';
 
 function checkDisplayChange() {
     const currentDisplay = window.getComputedStyle(elementToMonitor).getPropertyValue('display');
-
     if (damagedId.innerText !== previousId) {
-        console.log("secret message");
+        if(currentDisplay == "block"){
+            console.log("secret message");
+        }
         previousId = damagedId.innerText;
     }
     if (currentDisplay !== previousDisplay) {
