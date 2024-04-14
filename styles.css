@@ -142,6 +142,9 @@ hr{
     justify-content:center ;
     align-items: center;
  }
+ .content p{
+    text-align: center;
+ }
   .close {
     font-size: 2vw;
     position: absolute;
