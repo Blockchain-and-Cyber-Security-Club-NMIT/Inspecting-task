@@ -6,6 +6,11 @@ body::-webkit-scrollbar{
     display: none;
 }
 
+a{
+    color: white;
+}
+
+
 h1,h2{
     text-align: center;
     margin: 0;
@@ -68,8 +73,8 @@ hr{
 }
 
 .block{
-    width: 11vw;
-    height: 11vw;
+    width: 10vw;
+    height: 8vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -117,6 +122,25 @@ hr{
     font-size: 1.5vw;
 }
 
+.contact>div{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact>div>img{
+    width: 30%;
+}
+.contact>div>span{
+    font-size: 7vw;
+    padding: 1vw 2vw;
+    border-radius: 2vw;
+    transition-duration: 0.5s;
+}
+.contact>div>span:hover{
+    background-color: rgb(63, 61, 61);
+}
 .popup {
     width: 500px;
     height: 500px;
