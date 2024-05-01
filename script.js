@@ -10,7 +10,7 @@ function checkDisplayChange() {
     const currentDisplay = window.getComputedStyle(elementToMonitor).getPropertyValue('display');
     if (damagedId.innerText !== previousId) {
         if(currentDisplay == "block"){
-            console.log("secret message");
+            console.log("Get to the volunter for the next step !!!");
         }
         previousId = damagedId.innerText;
     }
